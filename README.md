@@ -14,3 +14,4 @@ A sorting algorithms visualizer using tkinter in Python:
 - tkinter
 - random library
 - time library
+- pyinstaller convert it into an .exe file
