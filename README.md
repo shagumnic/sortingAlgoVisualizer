@@ -1,6 +1,6 @@
 # sortingAlgoVisualizer
 A sorting algorithms visualizer using tkinter in Python:
-- Generate random bar charts (max 25), each has length varies based on the value of each bar (the value of each bar is a game's review score taken from the data provided in the csv file created and provided from the "Game Data Extraction & Download" project. The value will be within the min value and the max value and taken from based on player choice).
+- Generate random bar charts (max 25), each has length varies based on the value of each bar (the value of each bar is a game's review score taken from the data provided in the csv file created and provided from the "Games' Data Scraping & Download" project. The value will be within the min value and the max value and taken from based on player choice).
 - Implement famous algorithms: Selection Sort, Bubble Sort, Insertion Sort, Merge Sort, Quick Sort, Heap Sort, and use them to sort the chart.
 - Visualize the working proccess of each algorithm selected on the screen (user could adjust the speed based on their preference (from 0,2s to 2s) to watch it slower or faster).
 - Once it has all sorted, turn all the bar color from red to green.
