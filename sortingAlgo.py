@@ -67,8 +67,8 @@ def insertionSort(subjectList, firstPos, lastPos, visualizeData, timeTick) :
             newValue = subjectList[index]
             second_index = index - 1
             while second_index >=0 and subjectList[second_index][1] > newValue[1] :
-                subjectList[second_index + 1] = subjectList[second_index]
                 visualizeData(subjectList, ['yellow' if x == second_index or x == second_index + 1 else 'blue' if x == index else 'red' for x in range(len(subjectList))])
+                subjectList[second_index + 1] = subjectList[second_index]
                 time.sleep(timeTick)
                 second_index -= 1
             subjectList[second_index+1] = newValue
