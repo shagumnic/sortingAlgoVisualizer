@@ -9,6 +9,8 @@ A sorting algorithms visualizer using tkinter in Python:
 - Improve the visualization proccess for Heap Sort (the algorithm already works).
 - (Completed) Changing from randomly generate random numbers to randomly pick the games from the video games list that was supplied before hand as .csv file and sorted them based on review score.
 
+# How to run:
+- run the visualize.exe file, pick the algorithm you want to use, how many bars you wanna have and their value range. Afterwards, click the generate button to generate the data for sorting. Finally, click the Start button to start the visualization process
 # Tool use:
 - Python
 - tkinter
